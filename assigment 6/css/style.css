@@ -179,7 +179,7 @@ body:not(:has(a[href="#home"].active)).navbar-nav .nav-link.active::after{
 .card.inner img{
     width: 100%;
 } 
-#portfolio .tab-content .card img{
+#portfolio .tab-content .cards img{
 width: 100%;
 }
 .content{
@@ -195,7 +195,7 @@ width: 100%;
 .content h4{
     padding-bottom: 50px;
 }
-section#portfolio .tab-content .card .inner .layer {
+section#portfolio .tab-content .cards .inner .layer {
     background-color: white !important;
     opacity: 0;
     top: 5px;
@@ -204,11 +204,11 @@ section#portfolio .tab-content .card .inner .layer {
     right: 5px;
 }
 
-section#portfolio .tab-content .card .inner:hover .layer {
+section#portfolio .tab-content .cards .inner:hover .layer {
     opacity: 1;
     transition: all 0.5s;
 }
-section#portfolio .tab-content .card .inner:hover .content h4{
+section#portfolio .tab-content .cards .inner:hover .content h4{
     padding-bottom: 0;
         transition: all 0.5s;
 
